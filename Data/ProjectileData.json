@@ -1,0 +1,648 @@
+[
+  {
+    "id": 1,
+    "damage": 50,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonPhase/FX/Meshes/Shapes/SM_Sphere.SM_Sphere'",
+    "resourceMaterial": "Material'/Game/ParagonPhase/FX/Materials/Flares/M_BombFlames.M_BombFlames'",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonPhase/FX/Particles/Abilities/Flash/FX/P_FlashImpact.P_FlashImpact'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonPhase/FX/Meshes/Water/SM_WaterImpact_ImpactCylinder.SM_WaterImpact_ImpactCylinder'",
+    "effectMaterial": "Material'/Game/ParagonPhase/FX/Materials/Water/M_WaterImpact_Cylinder.M_WaterImpact_Cylinder'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 1,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonPhase/FX/Particles/Abilities/Beam/FX/P_BeamImpactDamage.P_BeamImpactDamage'",
+
+    "desc": "Mage Default "
+  },
+  {
+    "id": 2,
+    "damage": 20,
+    "speed": 5,
+    "size": 50,
+    "duration": 10,
+    "limitDistance": 100,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonPhase/FX/Meshes/Debris/pebbles_stones_d.pebbles_stones_d'",
+    "resourceMaterial": "",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonPhase/FX/Particles/Abilities/Link/FX/P_PhaseLinkSelf.P_PhaseLinkSelf'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonPhase/FX/Meshes/Shapes/SM_Sphere.SM_Sphere'",
+    "effectMaterial": "Material'/Game/ParagonPhase/FX/Materials/Water/M_WaterImpact_Cylinder.M_WaterImpact_Cylinder'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 0.3,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonPhase/FX/Particles/Abilities/Beam/FX/P_BeamImpactDamage.P_BeamImpactDamage'",
+
+    "desc": "마법사 주변 방어 투사체"
+  },
+  {
+    "id": 3,
+    "damage": 200,
+    "speed": 200,
+    "size": 50,
+    "duration": 10,
+    "limitDistance": 500,
+    "childProjectileId": 2,
+
+    "resource": "StaticMesh'/Game/ParagonPhase/FX/Meshes/Shapes/SM_Sphere.SM_Sphere'",
+    "resourceMaterial": "Material'/Game/ParagonPhase/FX/Materials/Shockwaves/M_ShockwaveBubbleChroma.M_ShockwaveBubbleChroma'",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonPhase/FX/Particles/Abilities/Link/FX/P_PhaseLinkSelf.P_PhaseLinkSelf'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 3,
+
+    "effectMesh": "StaticMesh'/Game/ParagonPhase/FX/Meshes/Shapes/SM_Sphere.SM_Sphere'",
+    "effectMaterial": "Material'/Game/ParagonPhase/FX/Materials/Energy/Plasma/M_ChromaPlasma.M_ChromaPlasma'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 1.2,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonPhase/FX/Particles/Abilities/Beam/FX/P_BeamImpactDamage.P_BeamImpactDamage'",
+    "desc": "마법사 투사체 근처 애기 투사체 소환"
+  },
+  {
+    "id": 4,
+    "damage": 100,
+    "speed": 500,
+    "size": 100,
+    "duration": 1,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonGreystone/FX/Meshes/Heroes/Greystone/Abilities/SM_Greystone_WhirlBase_01.SM_Greystone_WhirlBase_01'",
+    "resourceMaterial": "",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonGreystone/FX/Particles/Greystone/Skins/Novaborn/P_Greystone_Novaborn_SwordSpinning_01.P_Greystone_Novaborn_SwordSpinning_01'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 0.2,
+
+    "effectMesh": "StaticMesh'/Game/ParagonGreystone/FX/Meshes/Shapes/SM_Torus_Simple.SM_Torus_Simple'",
+    "effectMaterial": "Material'/Game/ParagonGreystone/FX/Materials/Game/M_Slow_Spline_V03.M_Slow_Spline_V03'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 0.5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonGreystone/FX/Particles/Greystone/Abilities/Ultimate/FX/P_Greystone_HToKill_Impact_Local.P_Greystone_HToKill_Impact_Local'",
+
+    "desc": "전사 점점 커지는 공격"
+  },
+  {
+    "id": 5,
+    "damage": 50,
+    "speed": 5,
+    "size": 150,
+    "duration": 10,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonGreystone/FX/Meshes/Heroes/Greystone/Abilities/SM_Greystone_Ultimate_DownWave_01.SM_Greystone_Ultimate_DownWave_01'",
+    "resourceMaterial": "",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonGreystone/FX/Particles/Greystone/Skins/Novaborn/P_Greystone_Novaborn_SwordSpinning_01.P_Greystone_Novaborn_SwordSpinning_01'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 0.2,
+
+    "effectMesh": "StaticMesh'/Game/ParagonGreystone/FX/Meshes/Shapes/SM_Torus_Simple.SM_Torus_Simple'",
+    "effectMaterial": "Material'/Game/ParagonGreystone/FX/Materials/Game/M_Slow_Spline_V03.M_Slow_Spline_V03'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 0.5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonGreystone/FX/Particles/Greystone/Abilities/Ultimate/FX/P_Greystone_HToKill_Impact_Local.P_Greystone_HToKill_Impact_Local'",
+
+    "desc": "전사 캐릭터 중심으로 도는 소환물"
+  },
+  {
+    "id": 6,
+    "damage": 30,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Meshes/TwinBlast_Grenade.TwinBlast_Grenade'",
+    "resourceMaterial": "",
+    "scale": 3,
+
+    "effect": "ParticleSystem'/Game/ParagonTwinblast/FX/Particles/SummerTime/FX/P_Twinblast_VortexGrenade_Targeting_Summer.P_Twinblast_VortexGrenade_Targeting_Summer'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonPhase/FX/Meshes/Shapes/SM_Sphere.SM_Sphere'",
+    "effectMaterial": "Material'/Game/ParagonTwinblast/FX/Materials/Water/M_WaterImpact_Cylinder.M_WaterImpact_Cylinder'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 0.5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonTwinblast/FX/Particles/SummerTime/FX/P_Twinblast_VortexGrenadeFire_Summer.P_Twinblast_VortexGrenadeFire_Summer'",
+
+    "desc": "거너 기본공격"
+  },
+  {
+    "id": 7,
+    "damage": 30,
+    "speed": 500,
+    "size": 80,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonTwinblast/FX/Meshes/Heroes/Twinblast/SM_MuzzleCore_02.SM_MuzzleCore_02'",
+    "resourceMaterial": "Material'/Game/ParagonTwinblast/FX/Materials/Shells/M_Plasma_Shot_Shell.M_Plasma_Shot_Shell'",
+    "scale": 2,
+
+    "effect": "ParticleSystem'/Game/ParagonTwinblast/FX/Particles/Abilities/VortexGrenade/FX/P_Twinblast_VortexGrenade_EngineIdle.P_Twinblast_VortexGrenade_EngineIdle'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 4,
+
+    "effectMesh": "StaticMesh'/Game/ParagonTwinblast/FX/Meshes/Heroes/Twinblast/SM_MuzzleCore_02.SM_MuzzleCore_02'",
+    "effectMaterial": "Material'/Game/ParagonTwinblast/FX/Materials/Smoke/Twinblast/M_SplineThickenSmoke_Trails_Master.M_SplineThickenSmoke_Trails_Master'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 3,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonTwinblast/FX/Particles/Abilities/VortexGrenade/FX/P_Twinblast_VortexGrenadeFire.P_Twinblast_VortexGrenadeFire'",
+
+    "desc": "거너 유도 공격"
+  },
+  {
+    "id": 8,
+    "damage": 80,
+    "speed": 40,
+    "size": 100,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonTwinblast/FX/Meshes/Shapes/SM_Twinblast_Booster_cone.SM_Twinblast_Booster_cone'",
+    "resourceMaterial": "Material'/Game/ParagonTwinblast/FX/Materials/Smoke/Twinblast/M_SplineThickenSmoke_Trails_Master.M_SplineThickenSmoke_Trails_Master'",
+    "scale": 2,
+
+    "effect": "ParticleSystem'/Game/ParagonTwinblast/FX/Particles/Abilities/VortexGrenade/FX/P_Twinblast_VortexGrenade_EngineIdle.P_Twinblast_VortexGrenade_EngineIdle'",
+    "effectLocation": {
+      "x": -7,
+      "y": 0,
+      "z": 20
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonTwinblast/FX/Meshes/Shapes/SM_1MeterSphere_MultiUVs.SM_1MeterSphere_MultiUVs'",
+    "effectMaterial": "Material'/Game/ParagonTwinblast/FX/Materials/Water/M_WaterImpact_Cylinder.M_WaterImpact_Cylinder'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 0.4,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonTwinblast/FX/Particles/Abilities/VortexGrenade/FX/P_GrenadeRadial.P_GrenadeRadial'",
+
+    "desc": "거너 지뢰 공격"
+  },
+  {
+    "id": 9,
+    "damage": 30,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonFey/FX/Meshes/Heroes/Fey/SM_Fey_Ult_Seed.SM_Fey_Ult_Seed'",
+    "resourceMaterial": "",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonFey/FX/Particles/Fey/Abilities/Primary/FX/P_Fey_Primary.P_Fey_Primary'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonFey/FX/Meshes/Heroes/SM_Stretched_Cylinder.SM_Stretched_Cylinder'",
+    "effectMaterial": "Material'/Game/ParagonFey/FX/Materials/Heroes/M_Primary_Projectile.M_Primary_Projectile'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 1,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonFey/FX/Particles/Fey/Abilities/Ultimate/FX/P_Ultimate_Tethered.P_Ultimate_Tethered'",
+
+    "desc": "Summons_1 Att"
+  },
+  {
+    "id": 10,
+    "damage": 30,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonWraith/FX/Meshes/Heroes/Wraith/SM_Wraith_Drone_open.SM_Wraith_Drone_open'",
+    "resourceMaterial": "",
+    "scale": 3,
+
+    "effect": "ParticleSystem'/Game/ParagonWraith/FX/Particles/Abilities/Drone/FX/P_Wraith_Drone_Trail.P_Wraith_Drone_Trail'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonWraith/FX/Meshes/Heroes/SM_Wraith_Jets_Combined.SM_Wraith_Jets_Combined'",
+    "effectMaterial": "",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 2,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonWraith/FX/Particles/Abilities/TeleportTarget/FX/P_Wraith_Teleport_Residual.P_Wraith_Teleport_Residual'",
+
+    "desc": "Summons_2 Att"
+  },
+  {
+    "id": 11,
+    "damage": 10,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonWraith/FX/Meshes/Heroes/SM_Wraith_SimpleUltBullet.SM_Wraith_SimpleUltBullet'",
+    "resourceMaterial": "",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonRevenant/FX/Particles/Revenant/Abilities/Mark/FX/P_Revenant_Mark_Targeting.P_Revenant_Mark_Targeting'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 3,
+
+    "effectMesh": "",
+    "effectMaterial": "",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 1,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonRevenant/FX/Particles/Revenant/Abilities/Ultimate/FX/P_Revenant_Ultimate_Exit.P_Revenant_Ultimate_Exit'",
+
+    "desc": "Monster Att_1"
+  },
+  {
+    "id": 12,
+    "damage": 20,
+    "speed": 300,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonDrongo/FX/Meshes/Heroes/Drongo/SM_Drongo_Grenade_FX_Body02.SM_Drongo_Grenade_FX_Body02'",
+    "resourceMaterial": "",
+    "scale": 3,
+
+    "effect": "ParticleSystem'/Game/FXVarietyPack/Particles/P_ky_fireBall.P_ky_fireBall'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 0.5,
+
+    "effectMesh": "StaticMesh'/Game/ParagonDrongo/FX/Meshes/Heroes/Drongo/SM_Drongo_Grenade_FX_Body02.SM_Drongo_Grenade_FX_Body02'",
+    "effectMaterial": "Material'/Game/ParagonDrongo/FX/Materials/Water/M_WaterImpact_Cylinder.M_WaterImpact_Cylinder'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 3.1,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Grenade/FX/P_Drongo_Grenade_UnlockActive.P_Drongo_Grenade_UnlockActive'",
+
+    "desc": "Monster Att_2"
+  },
+  {
+    "id": 13,
+    "damage": 30,
+    "speed": 100,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Weapons/Meshes/SM_Gruntling_BombDrop_Internal.SM_Gruntling_BombDrop_Internal'",
+    "resourceMaterial": "",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/FXVarietyPack/Particles/P_ky_fireBall.P_ky_fireBall'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Weapons/Meshes/SM_Gruntling_BombDrop_Internal.SM_Gruntling_BombDrop_Internal'",
+    "effectMaterial": "Material'/Game/ParagonDrongo/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_COLOUR.M_Hotdog_Spark_VLerp_COLOUR'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 1.1,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Grenade/FX/P_Drongo_Grenade_Explode_HitWater.P_Drongo_Grenade_Explode_HitWater'",
+
+    "desc": "Monster Att_3"
+  },
+  {
+    "id": 14,
+    "damage": 40,
+    "speed": 500,
+    "size": 5,
+    "duration": 5,
+    "limitDistance": 100,
+    "childProjectileId": 0,
+
+
+    "resource": "",
+    "resourceMaterial": "",
+    "scale": 1,
+
+    "effect": "ParticleSystem'/Game/ParagonRevenant/FX/Particles/Revenant/Abilities/Mark/FX/P_Revenant_Mark_Loop_v3.P_Revenant_Mark_Loop_v3'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "",
+    "effectMaterial": "",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 1.1,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonRevenant/FX/Particles/Revenant/Skins/FrostKing/Abilities/Mark/FX/P_Revenant_FrostKing_Mark_End.P_Revenant_FrostKing_Mark_End'",
+
+    "desc": "Monster Att_4"
+  },
+  {
+    "id": 15,
+    "damage": 50,
+    "speed": 200,
+    "size": 100,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonHowitzer/FX/Meshes/MicroRocket/SM_Howitzer_SlowGrenade_Open_Mine.SM_Howitzer_SlowGrenade_Open_Mine'",
+    "resourceMaterial": "",
+    "scale": 5,
+
+    "effect": "ParticleSystem'/Game/ParagonHowitzer/FX/Particles/Abilities/SlowGrenade/FX/V2/P_HB_SlowGrenade_Bomblet.P_HB_SlowGrenade_Bomblet'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 5,
+
+    "effectMesh": "",
+    "effectMaterial": "",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectMeshscale": 5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonHowitzer/FX/Particles/Abilities/SlowGrenade/FX/V2/P_HB_SlowGrenade_TimeOut.P_HB_SlowGrenade_TimeOut'",
+
+    "desc": "Monster Att_5"
+  },
+  {
+    "id": 16,
+    "damage": 60,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "StaticMesh'/Game/ParagonDrongo/FX/Meshes/Heroes/Drongo/SM_Drongo_Grenade_FX_Body02.SM_Drongo_Grenade_FX_Body02'",
+    "resourceMaterial": "",
+    "scale": 3,
+
+    "effect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Grenade/FX/P_Drongo_Grenade_Unlock_Sparks.P_Drongo_Grenade_Unlock_Sparks'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonDrongo/FX/Meshes/Debug/SM_Shape_Sphere.SM_Shape_Sphere'",
+    "effectMaterial": "Material'/Game/ParagonDrongo/FX/Materials/Heroes/Drongo/FX/M_Drongo_Shards_CamLens.M_Drongo_Shards_CamLens'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": -20
+    },
+    "effectMeshscale": 0.5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Boomerang/FX/P_Drongo_Boomerang_HitWorld.P_Drongo_Boomerang_HitWorld'",
+
+    "desc": "Monster Att_6"
+  },
+  {
+    "id": 17,
+    "damage": 30,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "",
+    "resourceMaterial": "",
+    "scale": 3,
+
+    "effect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Grenade/FX/P_Drongo_Grenade_Unlock_Sparks.P_Drongo_Grenade_Unlock_Sparks'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonDrongo/FX/Meshes/Debug/SM_Shape_Sphere.SM_Shape_Sphere'",
+    "effectMaterial": "Material'/Game/ParagonDrongo/FX/Materials/Heroes/Drongo/FX/M_Drongo_Shards_CamLens.M_Drongo_Shards_CamLens'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": -20
+    },
+    "effectMeshscale": 0.5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Boomerang/FX/P_Drongo_Boomerang_HitWorld.P_Drongo_Boomerang_HitWorld'",
+
+    "desc": "Knight Att_0"
+  },
+  {
+    "id": 18,
+    "damage": 30,
+    "speed": 500,
+    "size": 50,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "",
+    "resourceMaterial": "",
+    "scale": 3,
+
+    "effect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Grenade/FX/P_Drongo_Grenade_Unlock_Sparks.P_Drongo_Grenade_Unlock_Sparks'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonDrongo/FX/Meshes/Debug/SM_Shape_Sphere.SM_Shape_Sphere'",
+    "effectMaterial": "Material'/Game/ParagonDrongo/FX/Materials/Heroes/Drongo/FX/M_Drongo_Shards_CamLens.M_Drongo_Shards_CamLens'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": -20
+    },
+    "effectMeshscale": 0.5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Boomerang/FX/P_Drongo_Boomerang_HitWorld.P_Drongo_Boomerang_HitWorld'",
+
+    "desc": "Summons Att_0"
+  },
+  {
+    "id": 19,
+    "damage": 30,
+    "speed": 500,
+    "size": 100,
+    "duration": 5,
+    "limitDistance": 500,
+    "childProjectileId": 0,
+
+    "resource": "",
+    "resourceMaterial": "",
+    "scale": 3,
+
+    "effect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Grenade/FX/P_Drongo_Grenade_Unlock_Sparks.P_Drongo_Grenade_Unlock_Sparks'",
+    "effectLocation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "effectscale": 1,
+
+    "effectMesh": "StaticMesh'/Game/ParagonDrongo/FX/Meshes/Debug/SM_Shape_Sphere.SM_Shape_Sphere'",
+    "effectMaterial": "Material'/Game/ParagonDrongo/FX/Materials/Heroes/Drongo/FX/M_Drongo_Shards_CamLens.M_Drongo_Shards_CamLens'",
+    "effectMeshLocation": {
+      "x": 0,
+      "y": 0,
+      "z": -20
+    },
+    "effectMeshscale": 0.5,
+
+    "explosionEffect": "ParticleSystem'/Game/ParagonDrongo/FX/Particles/Abilities/Boomerang/FX/P_Drongo_Boomerang_HitWorld.P_Drongo_Boomerang_HitWorld'",
+
+    "desc": "Monster Att_0"
+  }
+]

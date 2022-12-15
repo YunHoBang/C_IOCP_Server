@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1001,
+    "name": "Basic Hp Potion",
+    "hp": 50,
+    "mp": 0,
+    "desc": "Heal the player's Hp by 50.",
+
+    "percentage": 90,
+    "price": 100,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_RedPotion.T_RedPotion'"
+  },
+  {
+    "id": 1002,
+    "name": "Advanced Hp Potion",
+    "hp": 200,
+    "mp": 0,
+    "desc": "Heal the player's Hp by 200.",
+
+    "percentage": 90,
+    "price": 200,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_HPBottle.T_HPBottle'"
+  },
+  {
+    "id": 1003,
+    "name": "Basic Mp Potion",
+    "hp": 0,
+    "mp": 50,
+    "desc": "Heal the player's Mp by 50.",
+
+    "percentage": 90,
+    "price": 100,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_BluePotion.T_BluePotion'"
+  },
+  {
+    "id": 1004,
+    "name": "Advanced Mp Potion",
+    "hp": 0,
+    "mp": 200,
+    "desc": "Heal the player's Mp by 200.",
+
+    "percentage": 90,
+    "price": 200,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_ManaBottle.T_ManaBottle'"
+  }
+]
