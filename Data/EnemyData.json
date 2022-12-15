@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "skillId": 1015,
+    "resource": "SkeletalMesh'/Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear.Enemy_Bear'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Enemy_1.ABP_Enemy_1_C'",
+    "stat": {
+      "hp": 100,
+      "mp": 100,
+      "exp": 50
+    },
+    "desc": "辟芭府 利",
+    "detectrange": 500,
+    "attrange": 200
+  },
+  {
+    "id": 2,
+    "skillId": 1016,
+    "resource": "SkeletalMesh'/Game/ParagonRevenant/Characters/Heroes/Revenant/Meshes/Revenant.Revenant'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Enemy_2.ABP_Enemy_2_C'",
+    "stat": {
+      "hp": 200,
+      "mp": 100,
+      "exp": 200
+    },
+    "desc": "盔芭府 利",
+    "detectrange": 800,
+    "attrange": 500
+  },
+  {
+    "id": 3,
+    "skillId": 1017,
+    "resource": "SkeletalMesh'/Game/ParagonDrongo/Characters/Heroes/Drongo/Meshes/Drongo_GDC.Drongo_GDC'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Enemy_3.ABP_Enemy_3_C'",
+    "stat": {
+      "hp": 200,
+      "mp": 100,
+      "exp": 350
+    },
+    "desc": "盔芭府 利2",
+    "detectrange": 800,
+    "attrange": 500
+  },
+  {
+    "id": 4,
+    "skillId": 1018,
+    "resource": "SkeletalMesh'/Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/SK_Master_Grunt.SK_Master_Grunt'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Enemy_4.ABP_Enemy_4_C'",
+    "stat": {
+      "hp": 400,
+      "mp": 100,
+      "exp": 350
+    },
+    "desc": "盔芭府 利3",
+    "detectrange": 800,
+    "attrange": 500
+  },
+  {
+    "id": 5,
+    "skillId": 1019,
+    "resource": "SkeletalMesh'/Game/ParagonRevenant/Characters/Heroes/Revenant/Meshes/Revenant.Revenant'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Enemy_5.ABP_Enemy_5_C'",
+    "stat": {
+      "hp": 450,
+      "mp": 100,
+      "exp": 400
+    },
+    "desc": "盔芭府 利4",
+    "detectrange": 800,
+    "attrange": 500
+  },
+  {
+    "id": 6,
+    "skillId": 1020,
+    "resource": "SkeletalMesh'/Game/ParagonHowitzer/Characters/Heroes/Howitzer/Meshes/Howitzer_GDC.Howitzer_GDC'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Enemy_6.ABP_Enemy_6_C'",
+    "stat": {
+      "hp": 450,
+      "mp": 100,
+      "exp": 400
+    },
+    "desc": "盔芭府 利5",
+    "detectrange": 800,
+    "attrange": 500
+  },
+  {
+    "id": 7,
+    "skillId": 1021,
+    "resource": "SkeletalMesh'/Game/ParagonDrongo/Characters/Heroes/Drongo/Skins/AlienInvader/Meshes/Drongo_AlienInvader.Drongo_AlienInvader'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Enemy_7.ABP_Enemy_7_C'",
+    "stat": {
+      "hp": 500,
+      "mp": 100,
+      "exp": 500
+    },
+    "desc": "盔芭府 利6",
+    "detectrange": 800,
+    "attrange": 500
+  }
+]

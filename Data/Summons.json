@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "skillId": 1022,
+    "duration": 20,
+    "resource": "SkeletalMesh'/Game/ParagonTerra/Characters/Heroes/Terra/Meshes/Terra.Terra'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Summons_1.ABP_Summons_1_C'",
+    "stat": {
+      "hp": 200,
+      "mp": 100,
+      "exp": 10
+    },
+    "desc": "전사 소환수",
+    "detectrange": 400,
+    "attrange": 200
+  },
+  {
+    "id": 2,
+    "skillId": 1023,
+    "duration": 20,
+    "resource": "SkeletalMesh'/Game/ParagonFey/Characters/Heroes/Fey/Meshes/Fey_GDC.Fey_GDC'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Summons_2.ABP_Summons_2_C'",
+    "stat": {
+      "hp": 200,
+      "mp": 100,
+      "exp": 10
+    },
+    "desc": "마법사 소환수",
+    "detectrange": 400,
+    "attrange": 400
+  },
+  {
+    "id": 3,
+    "skillId": 1024,
+    "duration": 20,
+    "resource": "SkeletalMesh'/Game/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith.Wraith'",
+    "anim": "AnimBlueprint'/Game/Animation/ABP_Summons_3.ABP_Summons_3_C'",
+    "stat": {
+      "hp": 200,
+      "mp": 100,
+      "exp": 10
+    },
+    "desc": "거너 소환수",
+    "detectrange": 400,
+    "attrange": 400
+  }
+]

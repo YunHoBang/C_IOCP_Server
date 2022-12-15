@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1001,
+    "name": "Basic Sword",
+    "attack": 5,
+    "defense": 0,
+    "equiptype": 1,
+
+    "percentage": 90,
+    "price": 100,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_DaggerImage.T_DaggerImage'"
+  },
+  {
+    "id": 1002,
+    "name": "Advanced Sword",
+    "attack": 10,
+    "defense": 0,
+    "equiptype": 1,
+
+    "percentage": 90,
+    "price": 500,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_Axe2Image.T_Axe2Image'"
+  },
+  {
+    "id": 1003,
+    "name": "Basic Armor",
+    "attack": 0,
+    "defense": 5,
+    "equiptype": 0,
+
+    "percentage": 90,
+    "price": 100,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_ArmorImage.T_ArmorImage'"
+  },
+  {
+    "id": 1004,
+    "name": "Advanced Armor",
+    "attack": 0,
+    "defense": 10,
+    "equiptype": 0,
+
+    "percentage": 90,
+    "price": 500,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_BeltImage.T_BeltImage'"
+  },
+  {
+    "id": 1005,
+    "name": "Default Helmet",
+    "attack": 0,
+    "defense": 20,
+    "equiptype": 2,
+
+    "percentage": 90,
+    "price": 100,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_HelmetImage.T_HelmetImage'"
+  },
+  {
+    "id": 1006,
+    "name": "Advanced Helmet",
+    "attack": 0,
+    "defense": 20,
+    "equiptype": 2,
+
+    "percentage": 90,
+    "price": 500,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_Shoulder.T_Shoulder'"
+  },
+  {
+    "id": 1007,
+    "name": "Default Pants",
+    "attack": 0,
+    "defense": 20,
+    "equiptype": 3,
+
+    "percentage": 90,
+    "price": 100,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_PantsImage.T_PantsImage'"
+  },
+  {
+    "id": 1008,
+    "name": "Advanced Pants",
+    "attack": 0,
+    "defense": 20,
+    "equiptype": 3,
+
+    "percentage": 90,
+    "price": 500,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_BootsImage.T_BootsImage'"
+  },
+  {
+    "id": 1009,
+    "name": "Default Shield",
+    "attack": 0,
+    "defense": 20,
+    "equiptype": 4,
+
+    "percentage": 90,
+    "price": 100,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_ShieldImage.T_ShieldImage'"
+  },
+  {
+    "id": 1010,
+    "name": "Advanced Shield",
+    "attack": 0,
+    "defense": 20,
+    "equiptype": 4,
+
+    "percentage": 90,
+    "price": 500,
+    "resource": "Texture2D'/Game/UIResource/Widgets/Images/ItemImages/T_ShiledEquipped.T_ShiledEquipped'"
+  }
+]
